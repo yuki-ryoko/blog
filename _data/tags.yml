@@ -1,20 +1,11 @@
 tag1:
-  name: 镜像
+  name: tag1
 
 tag2:
-  name: 日常
+  name: tag2
 
 tag3:
-  name: 生产
+  name: tag3
 
 tag4:
-  name: 同人
-  
-tag5:
-  name: Android
-  
-tag6:
-  name: Windows
-  
-tag7:
-  name: 岁月留声
+  name: tag4
