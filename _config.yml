@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
 url: #Your url here
-baseurl: /project
+baseurl: /
 
 # variables
-name: Kazumi Blog With Windows 95
-description: Kazumi Blog With Windows 95
+name: Kazumi Blog Classic
+description: Kazumi Classic
 google_verification: null
 
 
@@ -23,4 +23,3 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
-theme: jekyll-theme-slate

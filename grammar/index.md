@@ -1,12 +1,8 @@
 ---
-layout: default
-title: "Markdown Test Page"
-tags: tag1 tag3
+layout: me
+title: Grammar
 ---
-
-## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
-
-# <a name="top"></a>Markdown Test Page
+# <a name="top"></a>Markdown Grammar Page
 
 * [Headings](#Headings)
 * [Paragraphs](#Paragraphs)

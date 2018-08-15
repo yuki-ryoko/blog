@@ -19,8 +19,8 @@ body {
 
 	h1 {
 		color: #bfb8bf;
-		font-size: 14px;
-		font-weight: bold;
+		font-size: 11px;
+		padding: 1px 0 0 0;
 	}
 	
 	img {
@@ -66,7 +66,7 @@ body {
 	}
 
 	.btn_max {
-		margin: 0 3px 0 0;
+		margin: 0 0 0 0;
 	}
 
 	.btn:active {
@@ -75,6 +75,7 @@ body {
 	}
 }
 ul.topbar {
+	font-size: 12px;
 	list-style: none;
 	padding: 0 10px;
 	margin: 3px 0 3px 0;
@@ -107,11 +108,15 @@ ul.topbar {
 
 		li {
 			display: inline-block;
-			margin: 10px;
-			max-width: 16ch;
+			margin: 6px;
+			min-height: 16ch;
+			max-height: 16ch;
+			font-size: 11px;
+			min-width: 10ch;
+			max-width: 10ch;
 			overflow: hidden;
+			// white-space: nowrap;
 			text-overflow: ellipsis;
-			white-space: nowrap;
 			text-align: center;
 
 			img {
@@ -187,17 +192,21 @@ ul.topbar {
 	}
 }
 .post_content {
+	line-height: 22px;
+	font-family: "Microsoft YaHei";
 	position: relative;
-	width: 98.5%;
+	width: 94%;
 	min-height: 600px;
 	max-height: 600px;
-	padding: 2px;
+	padding: 20px;
 	margin: 0 auto;
 	overflow-y: scroll;
 	overflow-x: scroll;
 
 	p {
 		line-height: 150%;
+		font-size: 12px;
+		margin-top: 4px;
 		margin-bottom: 15px;
 	}
 
@@ -274,10 +283,6 @@ ul.topbar {
 	table, th, td {
 		border: 1px solid #222222;
 		padding: 2px;
-	}
-
-	pre {
-		margin-bottom: 15px;
 	}
 }
 .hljs {
